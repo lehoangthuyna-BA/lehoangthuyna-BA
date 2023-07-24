@@ -1,0 +1,12 @@
+- 👋 Hi, I’m @lehoangthuyna-BA
+- 👋 I'm 21 years old
+- 👀 My hobby are learning new things, speaking English, reading books, listening to music, traveling and sleeping  ...
+- 🌱 I’m currently learning ielts to go abroad...
+- 💞️ I’m looking to collaborate on teamwork
+- 📫 I hope everyone will support me in work
+- Thanks for help.
+
+<!---
+lehoangthuyna-BA/lehoangthuyna-BA is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
