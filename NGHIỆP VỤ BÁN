@@ -1,0 +1,70 @@
+NGHIỆP VỤ
+---PRESALE-----
+1. Nhập hàng: - Nhập hàng fresh:         bachhoaxanh.pm_inputvoucher_add
+              - Xác nhận nhập hàng khô: bachhoaxanh.pm_inputvoucherdetail_add
+3. Chuyển đổi code/ sơ chế: bachhoaxanh.pm_outputvoucher_add
+                            bachhoaxanh.pm_outputvoucherdetail_add
+                            bachhoaxanh.pm_inputvoucher_add
+                            bachhoaxanh.pm_inputvoucherdetail_add
+                            bachhoaxanh.rpt_currentinstock_getbyproduct"
+4. Xin hàng/Xuất chuyển kho: - Xin hàng (app mwg) bachhoaxanh.rpt_stockgetbyproductlist
+                             - Xử lý yêu cầu xuất (app mwg)   bachhoaxanh.pm_outputvoucher_add
+                                                            bachhoaxanh.pm_outputvoucherdetail_add
+                                                            bachhoaxanh.pm_inputvoucher_add
+                                                            bachhoaxanh.pm_inputvoucherdetail_add
+
+                        
+---SALE-----
+1. Xuất bán hàng: Tạo dữ liệu phiếu xuất bán :  - Phần mềm bán hàng tại siêu thị 
+                                                - Bán hàng BHX (App mwg)  bachhoaxanh.pm_outputvoucher_add
+                                                                          bachhoaxanh.pm_outputvoucherdetail_add
+                                                                          bachhoaxanh.pm_outputvoucher_promotion_add"
+----AFTERSALE------
+1. Nhập trả hàng: - Xử lý nhập trả phiếu xuất bán    - Nhập trả (App mwg)   
+                  - Xử lý xuất/thay thế hóa đơn                          bachhoaxanh.pm_inputvoucher_add
+                                                                         bachhoaxanh.pm_inputvoucherdetail_add
+                                                                         bachhoaxanh.pm_outputvoucher_srhreturn_new
+                                                                         bachhoaxanh.pm_inputvoucherdetail_getreturn
+2. Kiểm kê: - Xử lý đưa tồn hệ thống về đúng tồn thực tế:  - Kiểm kê theo khu (app mwg)
+                                                           - Kiểm kê hàng Fresh (app mwg)
+                                                                            bachhoaxanh.rpt_stockgetbyproductlist
+                                                                            bachhoaxanh.pm_outputvoucher_add
+                                                                            bachhoaxanh.pm_outputvoucherdetail_add
+                                                                            bachhoaxanh.pm_inputvoucher_add
+                                                                            bachhoaxanh.pm_inputvoucherdetail_add
+3. Xuất hủy hàng: Hủy hàng không còn sử dụng được (hết date, hư hỏng, hàng tươi qua ngày) -  Xuất hủy hàng hư 
+                                                                             bachhoaxanh.rpt_stockgetbyproductlist
+                                                                             bachhoaxanh.pm_outputvoucher_add
+                                                                             bachhoaxanh.pm_outputvoucherdetail_add"
+4. Nghiệp vụ kế toán: - Xử lý tạo phiếu nhập, phiếu xuất số lượng lớn
+                      - Điều chỉnh thông tin phiếu nhập/xuất
+                      - Xóa phiếu nhập/xuất để tạo phiếu mới
+                                                  bachhoaxanh.pm_outputvoucher_add
+                                                  bachhoaxanh.pm_outputvoucherdetail_add
+                                                  bachhoaxanh.pm_inputvoucher_add
+                                                  bachhoaxanh.pm_inputvoucherdetail_add
+                                                  bachhoaxanh.cal_change_code
+                                                  bachhoaxanh.pm_inputvoucher_srh
+                                                  bachhoaxanh.pm_outputvoucher_srhnew"
+5. Xác nhận chênh lệch: Chuyển tồn kho chênh lệch về đúng nơi xử lý sai - Xác nhân chênh lệch hàng tươi (pos.bachhoaxanh.com)
+                                                                        - Xử lý chênh lệch hàng khô (pos.bachhoaxanh.com)
+
+                                                    bachhoaxanh.pm_outputvoucher_add
+                                                    bachhoaxanh.pm_outputvoucherdetail_add
+                                                    bachhoaxanh.pm_inputvoucher_add
+                                                    bachhoaxanh.pm_inputvoucherdetail_add"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
